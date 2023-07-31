@@ -1,4 +1,5 @@
 // Write a JavaScript program to find the most frequent element in an array and return it.
+
 const frequentEle = arr => {
   const obj = arr.reduce((accumulator, element) => {
     accumulator[element] = accumulator[element] ? accumulator[element] + 1 : 1;
